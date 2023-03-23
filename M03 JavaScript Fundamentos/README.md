@@ -12,15 +12,21 @@ Para ejecutar los tests de las homeworks debes:
     npm install
 ```
 
+2.Luego de que se hayan instalado las dependencias pueden comenzar a correr los tests.
 2. Luego de que se hayan instalado las dependencias pueden comenzar a correr los tests.
+2.Luego de que se hayan instalado las dependencias pueden comenzar a correr los tests.
 
--  Para ejecutarlos globalmente (es decir, el de todas las homeworks), ejecuta el comando:
+- Para ejecutarlos globalmente (es decir, el de todas las homeworks), ejecuta el comando:
+- Para ejecutarlos globalmente (es decir, el de todas las homeworks), ejecuta el comando:
+- Para ejecutarlos globalmente (es decir, el de todas las homeworks), ejecuta el comando:
 
 ```bash
     npm test
 ```
 
--  Si quieres ejecutar los tests de esta homework en específico ejecuta el comando:
+- Si quieres ejecutar los tests de esta homework en específico ejecuta el comando:
+- Si quieres ejecutar los tests de esta homework en específico ejecuta el comando:
+- Si quieres ejecutar los tests de esta homework en específico ejecuta el comando:
 
 ```bash
     npm test 03
@@ -34,10 +40,18 @@ Para ejecutar los tests de las homeworks debes:
 
 En esta Homework podrás poner en práctica:
 
--  Tipos de datos
--  Variables
--  Funciones
--  Operadores
+- Tipos de datos
+- Variables
+- Funciones
+- Operadores
+- Tipos de datos
+- Variables
+- Funciones
+- Operadores
+- Tipos de datos
+- Variables
+- Funciones
+- Operadores
 
 ---
 

@@ -12,19 +12,18 @@ Para ejecutar los tests de las homeworks debes:
     npm install
 ```
 
-2. Luego de que se hayan instalado las dependencias pueden comenzar a correr los tests.
+2.Luego de que se hayan instalado las dependencias pueden comenzar a correr los tests.
 
--  Para ejecutarlos globalmente (es decir, el de todas las homeworks), ejecuta el comando:
+- Para ejecutarlos globalmente (es decir, el de todas las homeworks), ejecuta el comando:
 
 ```bash
     npm test
 ```
 
--  Si quieres ejecutar los tests de esta homework en específico ejecuta el comando:
-
-```bash
+ Si quieres ejecutar los tests de esta homework en específico ejecuta el comando:
+``bash
     npm test 04
-```
+`
 
 ---
 
@@ -34,10 +33,10 @@ Para ejecutar los tests de las homeworks debes:
 
 En esta Homework podrás poner en práctica:
 
--  Condicionales
--  Operadores de Comparación
--  Operadores Lógicos
--  Bucles
+- Condicionales
+- Operadores de Comparación
+- Operadores Lógicos
+- Bucles
 
 ---
 

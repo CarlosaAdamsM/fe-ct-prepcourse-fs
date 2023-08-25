@@ -70,7 +70,7 @@ function agregarNumeros(arrayOfNums) {
    // El parámetro "arrayOfNums" debe ser un arreglo de números.
    // Suma todos los elementos y retorna el resultado.
    // Tu código:
-   return arrayOfNums.reduce((contador, iterador) => contador + iterador, 0)
+   return arrayOfNums.reduce((contador, iterador) => contador + iterador, 0);
    
    /*	let sumatoria 0;
 
@@ -86,10 +86,10 @@ function promedioResultadosTest(resultadosTest) {
    // Tu código:
    let resultadoSuma = 0;
 
-	for (i = 0; i<resultadosTest.length; i++){
+   for (i = 0; i < resultadosTest.length; i++) {
 	   resultadosTest += resultadosTest[i]
 	}
-	return resultadoSuma/resultadosTest.length;
+	return resultadoSuma / resultadosTest.length;
 }
 
 function numeroMasGrande(arrayOfNums) {

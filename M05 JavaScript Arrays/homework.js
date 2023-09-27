@@ -241,7 +241,7 @@ function breakStatement(num) {
    // [PISTA]: utiliza el statement 'break'.
    // Tu código:
    var arrayFinal = []
-   for (var i; i < 10; i++) {
+   for (var i = 0; i < 10; i++) {
       if (num===i){
          return("Se interrumpió la ejecución")
       }

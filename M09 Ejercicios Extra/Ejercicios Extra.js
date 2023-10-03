@@ -6,14 +6,30 @@ function deObjetoAarray(objeto) {
    // Estos elementos debe ser cada par clave:valor del objeto recibido.
    // [EJEMPLO]: {D: 1, B: 2, C: 3} ---> [['D', 1], ['B', 2], ['C', 3]].
    // Tu código:
+   let newArrayOfArr = [];
+   for (let key in objeto) {
+      let dato = [];
+      dato.push(key); // ["D"]
+      dato.push(objeto[key]); // ["D", 1]
+      newArrayOfArr.push(dato); // [['D', 1], ['B', 2], ['C', 3]]
+   };
+   return newArrayOfArr;
 }
-
 function numberOfCharacters(string) {
    // La función recibe un string. Debes recorrerlo y retornar un objeto donde cada propiedad es una de las
    // letras del string, y su valor es la cantidad de veces que se repite en el string.
    // Las letras deben estar en orden alfabético.
    // [EJEMPLO]: "adsjfdsfsfjsdjfhacabcsbajda" ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 }
    // Tu código:
+   let obj = {};
+   for (let char of string) {
+      if (obj.hasOwnProperty(char)) {
+         obj[char] += 1;
+      } else {
+         obj[char] = 1;
+      }
+   }
+   return obj;
 }
 
 function capToFront(string) {
@@ -22,8 +38,22 @@ function capToFront(string) {
    // Retornar el string.
    // [EJEMPLO]: soyHENRY ---> HENRYsoy
    // Tu código:
+   let cadena = string.split("");
+   let mayus = [];
+   let minus = [];
+   for (let char of cadena) {
+      if (char === char.toUpperCase()) mayus.push(char);
+      if (char === char.toLowerCase()) minus.push(char);
+   }
+   let stringConv = ""
+   for (const may of mayus) {
+      stringConv += may
+   }
+   for (const may of minus) {
+      stringConv += may
+   }
+   return stringConv;
 }
-
 function asAmirror(frase) {
    // Recibes una frase. Tu tarea es retornar un nuevo string en el que el orden de las palabras sea el mismo.
    // La diferencia es que cada palabra estará escrita al inverso.
